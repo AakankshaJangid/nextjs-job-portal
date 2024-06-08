@@ -14,7 +14,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
 const stripePromise = loadStripe(
-  "pk_test_51NMv6ZSC6E6fnyMeRIEb9oEXdGRCC9yrBTT4xWHgcjWOuFcqFiAHErvaS50K1hl5t5WJXVGfLLWxvb705IWJhA3300yCcrMnlM"
+  "pk_test_51PPTeP05f2ZuqC2ShjKL9cYfTNyXQcCro9Yah9ypD42e4nDC4esX4GTwKKnSXaREK1T84FUsjJizf0iDXcDE51ZH00gTnA9x5c"
 );
 
 function Membership({ profileInfo }) {

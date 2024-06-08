@@ -11,8 +11,8 @@ import { createClient } from "@supabase/supabase-js";
 import { createFeedPostAction, updateFeedPostAction } from "@/actions";
 
 const supabaseClient = createClient(
-  "https://ymsijpnegskkoiuerthi.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inltc2lqcG5lZ3Nra29pdWVydGhpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQyMzYzNDYsImV4cCI6MjAyOTgxMjM0Nn0.PM7Nr9qTZFEJsf62eHgkFXKGPqt0gfMdFN6SOJjCP6M"
+  "https://frgjlgyoowrmsvjeghos.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZyZ2psZ3lvb3dybXN2amVnaG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTc4NjYyMjgsImV4cCI6MjAzMzQ0MjIyOH0.x5Rj58U7ptJH-rU4CcxEwDhqFm7Jzs29_wOwxXe0_Go"
 );
 
 function Feed({ user, profileInfo, allFeedPosts }) {
